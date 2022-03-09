@@ -19,8 +19,10 @@ Do the following:
 
    HINT: no function required
 */
-
-
+const votingAge = 18;
+if(votingAge >= 18) {
+  console.log("Age is 18 or higher");
+} 
 
 /*
 Task 1b - Values (not auto tested)
@@ -33,9 +35,14 @@ Do the following:
 
    HINT: no function required
 */
-
-
-
+let dog = 'bob';
+let behaviour = 'bad'
+if(behaviour = 'good') {
+  dog = 'bob'; 
+} else if(behaviour === 'bad'){
+  dog = 'steve';
+}
+console.log(dog);
 
 
 /*
@@ -61,10 +68,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a,b){
+  return a*b
 }
-
+ console.log(multiply(5,4));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -77,11 +84,11 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(y){
+  return y*7
 }
-
-
+let resultdog = dogYears(1);
+console.log(resultdog);
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
