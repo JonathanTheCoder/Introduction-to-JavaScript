@@ -19,8 +19,10 @@ Do the following:
 
    HINT: no function required
 */
-
-
+const votingAge = 18;
+if(votingAge >= 18) {
+  console.log("Age is 18 or higher");
+} 
 
 /*
 Task 1b - Values (not auto tested)
@@ -33,9 +35,14 @@ Do the following:
 
    HINT: no function required
 */
-
-
-
+let dog = 'bob';
+let behaviour = 'bad'
+if(behaviour = 'good') {
+  dog = 'bob'; 
+} else if(behaviour === 'bad'){
+  dog = 'steve';
+}
+console.log(dog);
 
 
 /*
@@ -61,10 +68,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a,b){
+  return a*b
 }
-
+ console.log(multiply(5,4));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -77,11 +84,11 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(y){
+  return y*7
 }
-
-
+let resultdog = dogYears(2);
+console.log(resultdog);
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -89,7 +96,7 @@ function dogYears(/*add your code here*/){
 /*
 Use the hungryDog function and feeding requirements below to do the following:
 1. Invoke the hungryDog function below and pass it a weight value in pounds, followed by an age value in years
-2. 🌟 NOTE: if the dog is a puppy, the age will be a decimal (rounded to two places). For example: 3 months = .25 (3 divided by 12)
+2. note: if the dog is a puppy, the age will be a decimal. For example: three months = 3/12 or .25
 3. Do the proper calculations and return the number of pounds of raw food to feed the dog/puppy in a day
 
 REMEMBER: This program should handle correctly adult AND puppy ages and weights
@@ -249,6 +256,8 @@ HINT - try looking up the .includes() method
 function vowelCounter(/*add your code here*/) {
   /*add your code here*/
 }
+
+
 
 
 
